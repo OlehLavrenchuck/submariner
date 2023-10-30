@@ -1,0 +1,27 @@
+
+bg_animations.png
+size: 140,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/plkB
+  rotate: false
+  xy: 102, 132
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+images/soap_bubbles_small_blur
+  rotate: false
+  xy: 2, 2
+  size: 36, 36
+  orig: 50, 50
+  offset: 7, 7
+  index: -1
+images/star_particle_fred
+  rotate: false
+  xy: 2, 40
+  size: 98, 98
+  orig: 250, 250
+  offset: 76, 76
+  index: -1

@@ -1,0 +1,41 @@
+
+f_2_s_4.png
+size: 172,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/element_2_small_black
+  rotate: false
+  xy: 144, 160
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+images/f_2_s_4
+  rotate: false
+  xy: 2, 60
+  size: 140, 110
+  orig: 140, 110
+  offset: 0, 0
+  index: -1
+images/particle_1_glow
+  rotate: false
+  xy: 60, 22
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+images/red_glow
+  rotate: false
+  xy: 2, 2
+  size: 56, 56
+  orig: 64, 64
+  offset: 4, 4
+  index: -1
+images/soap_bubbles_small_blur
+  rotate: false
+  xy: 98, 22
+  size: 36, 36
+  orig: 50, 50
+  offset: 7, 7
+  index: -1

@@ -14,7 +14,7 @@ module.exports = {
       compress: true,
       port: 9000,
     },
-    mode: 'development',
+    mode: 'production',
     entry: './src/app.js',
     output: {
       path: path.resolve(__dirname, 'dist'),

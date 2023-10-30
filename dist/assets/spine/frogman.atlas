@@ -1,0 +1,20 @@
+
+frogman.png
+size: 144,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/frogman
+  rotate: false
+  xy: 2, 2
+  size: 90, 137
+  orig: 90, 138
+  offset: 0, 1
+  index: -1
+images/soap_bubbles_small_blur
+  rotate: false
+  xy: 94, 103
+  size: 36, 36
+  orig: 50, 50
+  offset: 7, 7
+  index: -1
