@@ -45,7 +45,7 @@ export default class Submarine extends PIXI.Container {
         if (this._listener) this._removeListener();
         this.view.state.setAnimation(0, name, loop);
     }
-    
+
     _upgrade() {
         this.level++;
         if (!ANIMATION[`LEVEL_${this.level}`]) return;

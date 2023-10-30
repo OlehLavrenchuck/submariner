@@ -85,7 +85,7 @@ export default class MultiplierCounter {
             );
         }
 
-        return result
+        return result;
     }
 
     _tryEmitBonus() {

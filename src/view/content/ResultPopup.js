@@ -39,11 +39,11 @@ export default class ResultPopup extends PIXI.Container {
         text.anchor.set(0.5);
         text.alpha = 0;
         text.y = 50;
-        
+
         text.show = () => new TWEEN.Tween(text)
             .to({alpha: 1}, 200)
             .start();
-        
+
         text.hide = () => new TWEEN.Tween(text)
             .to({alpha: 0}, 200)
             .start();
@@ -55,10 +55,10 @@ export default class ResultPopup extends PIXI.Container {
         this.popupView.autoUpdate = value;
         this.popupView.visible = value;
     }
-    
+
     win(result) {
         this.textView.show();
-        this.textView.text = result.toFixed(1) + '$';
+        this.textView.text = `${result.toFixed(1)}$`;
         this.popupView.state.setAnimation(0, ANIMATION.WIN, false);
         this._deferred = utils.deferred();
         return this._deferred.promise;

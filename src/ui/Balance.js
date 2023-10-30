@@ -21,7 +21,7 @@ export default class Balance extends PIXI.Container {
     _init() {
         const background =  this.addChild(PIXI.Sprite.from('balance'));
         background.anchor.set(0.5);
-  
+
         this.textView = this.addChild(new PIXI.Text('', utils.fontStyle({fontSize: 40})));
         this.textView.anchor.set(0.5);
         this.textView.y = 3;
@@ -30,6 +30,6 @@ export default class Balance extends PIXI.Container {
     }
 
     _updateView() {
-        this.textView.text = new Intl.NumberFormat('en-US').format(app.model.balance) + '$';
+        this.textView.text = `${new Intl.NumberFormat('en-US').format(app.model.balance)}$`;
     }
 }

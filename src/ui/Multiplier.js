@@ -1,4 +1,4 @@
-import { GAME_EVENT } from '../constants/constants';
+import {GAME_EVENT} from '../constants/constants';
 import utils from '../helpers/utils';
 import * as PIXI from 'pixi.js';
 import {Tween} from '@tweenjs/tween.js';
@@ -41,6 +41,6 @@ export default class Multiplier extends PIXI.Container {
     }
 
     updateCounter({multiplier}) {
-        this.textView.text = multiplier + 'x';
+        this.textView.text = `${multiplier}x`;
     }
 }

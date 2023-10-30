@@ -52,7 +52,7 @@ export default class Button extends PIXI.Container {
     }
 
     updateCounter({roundWin}) {
-        this.counterView.text = roundWin + '$';
+        this.counterView.text = `${roundWin}$`;
     }
 
     _init() {

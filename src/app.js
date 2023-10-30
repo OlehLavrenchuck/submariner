@@ -34,12 +34,12 @@ class App extends PIXI.Application {
 
     _show() {
         new TWEEN.Tween(this)
-        .to({
-            loader: {alpha: 0},
-            scene: {alpha: 1},
-            ui: {alpha: 1}
-        }, 250)
-        .start();
+            .to({
+                loader: {alpha: 0},
+                scene: {alpha: 1},
+                ui: {alpha: 1}
+            }, 250)
+            .start();
     }
 
     _addListeners() {
@@ -67,6 +67,4 @@ class App extends PIXI.Application {
 window.app = new App();
 window.onload = () => window.app.init();
 document.body.appendChild(window.app.view);
-
-
 

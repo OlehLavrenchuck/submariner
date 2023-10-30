@@ -1,4 +1,4 @@
-import utils from "../helpers/utils";
+import utils from '../helpers/utils';
 
 export default class GameModel {
     constructor() {

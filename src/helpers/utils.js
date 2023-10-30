@@ -1,4 +1,4 @@
-import TWEEN from "@tweenjs/tween.js";
+import TWEEN from '@tweenjs/tween.js';
 
 export default {
     deferred: () => {
@@ -8,20 +8,16 @@ export default {
         return deferred;
     },
 
-    fontStyle: style => {
-        return {
-            fontFamily: 'bebas',
-            fill: 0x000000,
-            stroke: 0xffffff,
-            strokeThickness: 1,
-            ...style
-        };
-    },
+    fontStyle: style => ({
+        fontFamily: 'bebas',
+        fill: 0x000000,
+        ...style
+    }),
 
     generateMultipliers: () => {
         const array = [];
         let i = 1;
-    
+
         while (array.length !== 20) {
             i = i >= 7 ? 1 : ++i;
             const multiplier = (Math.random() * i + i).toFixed(1);
@@ -49,6 +45,6 @@ export default {
                 .repeat(1)
                 .yoyo(true)
                 .start();
-        }
-    } 
-}
+        };
+    }
+};

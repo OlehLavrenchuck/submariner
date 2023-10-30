@@ -8,7 +8,7 @@ export default class Loader extends PIXI.Container {
         await PIXI.Assets.init({manifest});
         await PIXI.Assets.loadBundle('intro');
     }
-    
+
     async load() {
         this._deferred = utils.deferred();
         this._currProgress = 0;
@@ -35,7 +35,7 @@ export default class Loader extends PIXI.Container {
         this.textView = this.addChild(new PIXI.Text('', utils.fontStyle({
             fontSize: 70,
             fill: 0xffffff,
-            stroke: 0x000000, 
+            stroke: 0x000000,
             strokeThickness: 3
         })));
         this.textView.anchor.set(0.5);
@@ -51,7 +51,7 @@ export default class Loader extends PIXI.Container {
 
     _updateView() {
         this.loadingView.y = this.loadingView.startY - this.loadingView.startY * this._currProgress;
-        this.textView.text = (this._currProgress * 100).toFixed(0) + '%';
+        this.textView.text = `${(this._currProgress * 100).toFixed(0)}%`;
     }
 
     _onSmoothLoading() {

@@ -19,10 +19,10 @@ export default class StakeWidget extends PIXI.Container {
         this.stake = this.addChild(PIXI.Sprite.from('stake'));
         this.stake.anchor.set(0.5);
         this.textView = this.stake.addChild(this.createText(`${this.currValue}${this.signValue}`, {fontSize: 40}));
- 
+
         this.rightButton = this.createButton('button_stake', this.onRightTap);
         this.rightButton.x = 80;
-        let text =this.rightButton.addChild(this.createText('+', {fontSize: 60}));
+        let text = this.rightButton.addChild(this.createText('+', {fontSize: 60}));
         text.position.y = 2;
 
         this.leftButton = this.createButton('button_stake', this.onLeftTap);
@@ -94,7 +94,7 @@ export default class StakeWidget extends PIXI.Container {
         } else {
             this.autoActionButton.texture = PIXI.Assets.cache.get('autotake_bet_active');
         }
-    
+
         this.autoAction = !this.autoAction;
         this.autoActionButton.effectPressButton();
 

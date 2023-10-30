@@ -42,7 +42,7 @@ export default class BackgroundContainer extends PIXI.Container {
         }
     }
 
-    play() {        
+    play() {
         app.ticker.add(this._onUpdate, this);
     }
 

@@ -18,7 +18,7 @@ export default class Transition extends Spine {
         this.autoUpdate = value;
         this.visible = value;
     }
-    
+
     _addListener() {
         this.state.addListener({
             start: entry => {

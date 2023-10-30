@@ -70,4 +70,3 @@ export default class SeaCreatures extends PIXI.Container {
         }
     }
 }
-

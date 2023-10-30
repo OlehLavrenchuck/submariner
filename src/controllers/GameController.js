@@ -2,7 +2,6 @@ import * as PIXI from 'pixi.js';
 import {GAME_EVENT, SOUND_EVENT, UI_EVENT} from '../constants/constants';
 import MultiplierCounter from './MultiplierCounter';
 
-
 const STATE = {
     BET: 'STATE.BET',
     TAKE: 'STATE.TAKE',
@@ -61,9 +60,9 @@ export default class GameController extends PIXI.utils.EventEmitter {
     _bet() {
         if (this.state !== STATE.BET) return;
         this.state = STATE.TAKE;
-        
+
         this.model.result();
-        this.scene.play();        
+        this.scene.play();
         this.multiplierCounter.start();
         this.observer.notify(GAME_EVENT.BET);
     }
@@ -71,7 +70,8 @@ export default class GameController extends PIXI.utils.EventEmitter {
     async _take() {
         if (this.state !== STATE.TAKE) return;
         this.state = STATE.WAITING;
-        
+        this.sound.emit(GAME_EVENT.TOGGLE_FADE_MAIN_SOUND, 0);
+
         this.multiplierCounter.stop();
         this.model.update();
         this.observer.notify(GAME_EVENT.WIN);
@@ -87,13 +87,13 @@ export default class GameController extends PIXI.utils.EventEmitter {
 
         this.sound.emit(SOUND_EVENT.POPUP_WIN);
         await this.scene.popup.win(this.model.roundWin);
-
-        this._reset();
+        await this._reset();
     }
 
     async _lose() {
         this.state = STATE.WAITING;
-        
+        this.sound.emit(GAME_EVENT.TOGGLE_FADE_MAIN_SOUND, 0);
+
         this.observer.notify(GAME_EVENT.LOSE);
         this.scene.ballon.reset();
         this.scene.background.stop();
@@ -107,8 +107,7 @@ export default class GameController extends PIXI.utils.EventEmitter {
 
         this.sound.emit(SOUND_EVENT.POPUP_LOSE);
         await this.scene.popup.lose();
-
-        this._reset();
+        await this._reset();
     }
 
     async _reset() {
@@ -116,9 +115,10 @@ export default class GameController extends PIXI.utils.EventEmitter {
         this.scene.reset();
         this.scene.popup.hide();
 
+        this.sound.emit(GAME_EVENT.TOGGLE_FADE_MAIN_SOUND, 1);
         this.sound.emit(SOUND_EVENT.TRANSITION_OPEN);
         await this.scene.transition.open();
-    
+
         this.state = STATE.BET;
         this.observer.notify(GAME_EVENT.RESET);
 

@@ -1,6 +1,7 @@
 import * as PIXI from 'pixi.js';
 import {sound} from '@pixi/sound';
 import {GAME_EVENT, SOUND_EVENT, UI_EVENT} from '../constants/constants';
+import {Tween} from '@tweenjs/tween.js';
 
 export default class SoundController extends PIXI.utils.EventEmitter {
     constructor() {
@@ -15,18 +16,25 @@ export default class SoundController extends PIXI.utils.EventEmitter {
         this.on(UI_EVENT.BET_INCREASE, this._playIncreaseAndDecrease, this);
         this.on(UI_EVENT.AUTO_BET, this._playAutoTakeAndBet, this);
         this.on(UI_EVENT.AUTO_TAKE, this._playAutoTakeAndBet, this);
-        
+
         this.on(SOUND_EVENT.TRANSITION_OPEN, this._playTransitionOpen, this);
         this.on(SOUND_EVENT.TRANSITION_CLOSE, this._playTransitionClose, this);
         this.on(SOUND_EVENT.POPUP_WIN, this._playPopupWin, this);
         this.on(SOUND_EVENT.POPUP_LOSE, this._playPopupLose, this);
         this.on(SOUND_EVENT.BALLON, this._playBallon, this);
-        
+
         this.on(GAME_EVENT.WIN, this._playTake, this);
         this.on(GAME_EVENT.LOSE, this._playLose, this);
         this.on(GAME_EVENT.BET, this._playBet, this);
+        this.on(GAME_EVENT.TOGGLE_FADE_MAIN_SOUND, this._toggleFadeMainSound, this);
 
-        sound.play('bg_main_theme', {loop: true});
+        this.mainSound = sound.play('bg_main_theme', {loop: true});
+    }
+
+    _toggleFadeMainSound(volume) {
+        new Tween(this.mainSound)
+            .to({volume}, 500)
+            .start();
     }
 
     _playIncreaseAndDecrease() {

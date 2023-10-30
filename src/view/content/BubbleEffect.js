@@ -1,4 +1,4 @@
-import { Spine } from 'pixi-spine';
+import {Spine} from 'pixi-spine';
 import * as PIXI from 'pixi.js';
 
 export default class BubbleEffect extends PIXI.Container {

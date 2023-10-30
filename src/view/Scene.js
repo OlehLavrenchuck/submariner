@@ -39,7 +39,7 @@ export default class Scene extends PIXI.Container {
         this.background.play();
     }
 
-    reset() { 
+    reset() {
         this.background.reset();
         this.submarine.reset();
         this.bubbleEffect.reset();
