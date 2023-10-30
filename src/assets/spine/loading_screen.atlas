@@ -1,0 +1,27 @@
+
+loading_screen.png
+size: 556,552
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/soap_bubbles_small_blur
+  rotate: false
+  xy: 2, 54
+  size: 36, 36
+  orig: 50, 50
+  offset: 7, 7
+  index: -1
+images/water_1
+  rotate: false
+  xy: 2, 200
+  size: 550, 350
+  orig: 550, 350
+  offset: 0, 0
+  index: -1
+images/water_2
+  rotate: false
+  xy: 2, 92
+  size: 550, 106
+  orig: 550, 106
+  offset: 0, 0
+  index: -1

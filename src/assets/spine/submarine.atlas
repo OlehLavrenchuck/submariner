@@ -1,0 +1,447 @@
+
+submarine.png
+size: 1304,1304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/caustic_00000
+  rotate: false
+  xy: 1193, 933
+  size: 87, 87
+  orig: 100, 100
+  offset: 6, 6
+  index: -1
+images/caustic_00001
+  rotate: false
+  xy: 1193, 846
+  size: 87, 85
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+images/caustic_00002
+  rotate: false
+  xy: 2, 6
+  size: 89, 85
+  orig: 100, 100
+  offset: 5, 8
+  index: -1
+images/caustic_00003
+  rotate: false
+  xy: 183, 6
+  size: 86, 85
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+images/caustic_00004
+  rotate: false
+  xy: 1127, 475
+  size: 86, 85
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+images/caustic_00005
+  rotate: false
+  xy: 925, 424
+  size: 87, 87
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+images/caustic_00006
+  rotate: false
+  xy: 1103, 389
+  size: 88, 84
+  orig: 100, 100
+  offset: 6, 8
+  index: -1
+images/caustic_00007
+  rotate: false
+  xy: 93, 6
+  size: 88, 85
+  orig: 100, 100
+  offset: 5, 8
+  index: -1
+images/caustic_00008
+  rotate: false
+  xy: 1127, 562
+  size: 86, 86
+  orig: 100, 100
+  offset: 7, 7
+  index: -1
+images/caustic_00009
+  rotate: false
+  xy: 1162, 670
+  size: 87, 86
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+images/caustic_00010
+  rotate: false
+  xy: 914, 335
+  size: 85, 85
+  orig: 100, 100
+  offset: 7, 7
+  index: -1
+images/caustic_00011
+  rotate: false
+  xy: 896, 123
+  size: 85, 86
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+images/caustic_00012
+  rotate: false
+  xy: 1091, 133
+  size: 86, 83
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+images/caustic_00013
+  rotate: false
+  xy: 914, 248
+  size: 86, 85
+  orig: 100, 100
+  offset: 6, 8
+  index: -1
+images/caustic_00014
+  rotate: false
+  xy: 271, 37
+  size: 87, 86
+  orig: 100, 100
+  offset: 7, 7
+  index: -1
+images/caustic_00015
+  rotate: false
+  xy: 1072, 47
+  size: 86, 84
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+images/caustic_00016
+  rotate: false
+  xy: 360, 37
+  size: 87, 86
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+images/caustic_00017
+  rotate: false
+  xy: 1160, 47
+  size: 86, 84
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+images/caustic_00018
+  rotate: false
+  xy: 1002, 252
+  size: 87, 84
+  orig: 100, 100
+  offset: 6, 9
+  index: -1
+images/caustic_00019
+  rotate: false
+  xy: 896, 35
+  size: 86, 86
+  orig: 100, 100
+  offset: 7, 7
+  index: -1
+images/caustic_00020
+  rotate: false
+  xy: 984, 79
+  size: 86, 85
+  orig: 100, 100
+  offset: 7, 7
+  index: -1
+images/caustic_00021
+  rotate: false
+  xy: 1002, 166
+  size: 87, 84
+  orig: 100, 100
+  offset: 6, 8
+  index: -1
+images/caustic_00022
+  rotate: false
+  xy: 1001, 338
+  size: 88, 84
+  orig: 100, 100
+  offset: 5, 8
+  index: -1
+images/caustic_00023
+  rotate: false
+  xy: 1215, 407
+  size: 87, 85
+  orig: 100, 100
+  offset: 6, 8
+  index: -1
+images/caustic_00024
+  rotate: false
+  xy: 1014, 424
+  size: 87, 87
+  orig: 100, 100
+  offset: 7, 6
+  index: -1
+images/caustic_00025
+  rotate: false
+  xy: 1181, 302
+  size: 86, 85
+  orig: 100, 100
+  offset: 7, 8
+  index: -1
+images/caustic_00026
+  rotate: false
+  xy: 1091, 303
+  size: 88, 84
+  orig: 100, 100
+  offset: 6, 8
+  index: -1
+images/caustic_00027
+  rotate: false
+  xy: 1215, 582
+  size: 87, 86
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+images/caustic_00028
+  rotate: false
+  xy: 1091, 218
+  size: 88, 83
+  orig: 100, 100
+  offset: 6, 8
+  index: -1
+images/caustic_00029
+  rotate: false
+  xy: 1215, 494
+  size: 87, 86
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+images/caustic_00030
+  rotate: false
+  xy: 1181, 215
+  size: 84, 85
+  orig: 100, 100
+  offset: 8, 7
+  index: -1
+images/caustic_00031
+  rotate: false
+  xy: 1162, 758
+  size: 88, 86
+  orig: 100, 100
+  offset: 6, 7
+  index: -1
+images/crash_00000
+  rotate: false
+  xy: 506, 836
+  size: 220, 212
+  orig: 250, 250
+  offset: 21, 11
+  index: -1
+images/crash_00001
+  rotate: false
+  xy: 254, 344
+  size: 236, 218
+  orig: 250, 250
+  offset: 0, 12
+  index: -1
+images/crash_00002
+  rotate: false
+  xy: 254, 564
+  size: 245, 236
+  orig: 250, 250
+  offset: 0, 5
+  index: -1
+images/crash_00003
+  rotate: false
+  xy: 334, 1054
+  size: 250, 246
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00004
+  rotate: false
+  xy: 2, 849
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00005
+  rotate: false
+  xy: 2, 597
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00006
+  rotate: false
+  xy: 2, 345
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00007
+  rotate: false
+  xy: 2, 93
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00008
+  rotate: false
+  xy: 586, 1050
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00009
+  rotate: false
+  xy: 838, 1050
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00010
+  rotate: false
+  xy: 254, 802
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+images/crash_00011
+  rotate: false
+  xy: 741, 632
+  size: 206, 206
+  orig: 250, 250
+  offset: 22, 21
+  index: -1
+images/crash_00012
+  rotate: false
+  xy: 686, 2
+  size: 208, 207
+  orig: 250, 250
+  offset: 21, 21
+  index: -1
+images/crash_00013
+  rotate: false
+  xy: 714, 422
+  size: 209, 208
+  orig: 250, 250
+  offset: 21, 21
+  index: -1
+images/crash_00014
+  rotate: false
+  xy: 492, 255
+  size: 209, 208
+  orig: 250, 250
+  offset: 21, 21
+  index: -1
+images/crash_00015
+  rotate: false
+  xy: 703, 211
+  size: 209, 209
+  orig: 250, 250
+  offset: 21, 21
+  index: -1
+images/crash_00016
+  rotate: false
+  xy: 475, 45
+  size: 209, 208
+  orig: 250, 250
+  offset: 21, 21
+  index: -1
+images/crash_00017
+  rotate: false
+  xy: 501, 465
+  size: 211, 207
+  orig: 250, 250
+  offset: 20, 23
+  index: -1
+images/crash_00018
+  rotate: false
+  xy: 728, 840
+  size: 211, 208
+  orig: 250, 250
+  offset: 20, 22
+  index: -1
+images/crash_00019
+  rotate: false
+  xy: 949, 650
+  size: 211, 208
+  orig: 250, 250
+  offset: 20, 22
+  index: -1
+images/crash_00020
+  rotate: false
+  xy: 949, 513
+  size: 176, 135
+  orig: 250, 250
+  offset: 56, 66
+  index: -1
+images/element_2_small_green
+  rotate: false
+  xy: 1091, 412
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+images/eye_flare_small
+  rotate: false
+  xy: 254, 1059
+  size: 77, 40
+  orig: 80, 40
+  offset: 2, 0
+  index: -1
+images/flash
+  rotate: false
+  xy: 254, 125
+  size: 219, 217
+  orig: 252, 252
+  offset: 16, 18
+  index: -1
+images/light_top
+  rotate: false
+  xy: 2, 1101
+  size: 330, 199
+  orig: 393, 252
+  offset: 36, 28
+  index: -1
+images/propeller
+  rotate: false
+  xy: 984, 3
+  size: 77, 74
+  orig: 100, 100
+  offset: 11, 14
+  index: -1
+images/soap_bubbles_small
+  rotate: false
+  xy: 1252, 794
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/submarine_collect_50
+  rotate: false
+  xy: 506, 674
+  size: 233, 160
+  orig: 250, 160
+  offset: 10, 0
+  index: -1
+images/submarine_crash_50
+  rotate: false
+  xy: 941, 860
+  size: 250, 160
+  orig: 250, 160
+  offset: 0, 0
+  index: -1
+images/submarine_s_1_50
+  rotate: false
+  xy: 1090, 1162
+  size: 212, 138
+  orig: 250, 160
+  offset: 20, 11
+  index: -1
+images/submarine_s_4_50
+  rotate: false
+  xy: 1090, 1022
+  size: 212, 138
+  orig: 250, 160
+  offset: 20, 11
+  index: -1

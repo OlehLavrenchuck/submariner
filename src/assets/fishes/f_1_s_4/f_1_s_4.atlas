@@ -1,0 +1,20 @@
+
+f_1_s_4.png
+size: 168,164
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/f_1_s_4
+  rotate: false
+  xy: 2, 18
+  size: 124, 144
+  orig: 124, 144
+  offset: 0, 0
+  index: -1
+images/soap_bubbles_small_blur
+  rotate: false
+  xy: 128, 126
+  size: 36, 36
+  orig: 50, 50
+  offset: 7, 7
+  index: -1

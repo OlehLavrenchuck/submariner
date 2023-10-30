@@ -1,0 +1,20 @@
+
+transition.png
+size: 456,456
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aperture_segment
+  rotate: false
+  xy: 2, 38
+  size: 399, 413
+  orig: 500, 500
+  offset: 37, 43
+  index: -1
+soap_bubbles_small
+  rotate: false
+  xy: 403, 401
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,274 @@
+{
+  "bundles": [
+    {
+      "name": "intro",
+      "assets": [
+        {
+          "name": "loading_screen",
+          "srcs": "assets/spine/loading_screen.json"
+        },
+        {
+          "name": "bebas",
+          "srcs": "assets/fonts/bebas.ttf"
+        },
+        {
+          "name": "back_loading_screen",
+          "srcs": "assets/common/back_loading_screen.png"
+        },
+        {
+          "name": "bg_main",
+          "srcs": "assets/common/bg_main.png"
+        },
+        {
+          "name": "compass_scale",
+          "srcs": "assets/common/compass_scale.png"
+        },
+        {
+          "name": "logo",
+          "srcs": "assets/common/logo.png"
+        },
+        {
+          "name": "port_hole",
+          "srcs": "assets/common/port_hole.png"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "assets": [
+        {
+          "name": "autotake_bet",
+          "srcs": "assets/ui/autotake_bet.png"
+        },
+        {
+          "name": "autotake_bet_active",
+          "srcs": "assets/ui/autotake_bet_active.png"
+        },
+        {
+          "name": "balance",
+          "srcs": "assets/ui/balance.png"
+        },
+        {
+          "name": "button",
+          "srcs": "assets/ui/button.png"
+        },
+        {
+          "name": "button_accept",
+          "srcs": "assets/ui/button_accept.png"
+        },
+        {
+          "name": "button_disable",
+          "srcs": "assets/ui/button_disable.png"
+        },
+        {
+          "name": "button_stake",
+          "srcs": "assets/ui/button_stake.png"
+        },
+        {
+          "name": "button_stake_disable",
+          "srcs": "assets/ui/button_stake_disable.png"
+        },
+        {
+          "name": "button_take",
+          "srcs": "assets/ui/button_take.png"
+        },
+        {
+          "name": "stake",
+          "srcs": "assets/ui/stake.png"
+        },
+        {
+          "name": "stake_disable",
+          "srcs": "assets/ui/stake_disable.png"
+        },
+        {
+          "name": "bg_animations",
+          "srcs": "assets/spine/bg_animations.json"
+        },
+        {
+          "name": "bonus_mine",
+          "srcs": "assets/spine/bonus_mine.json"
+        },
+        {
+          "name": "frogman",
+          "srcs": "assets/spine/frogman.json"
+        },
+        {
+          "name": "pop_up",
+          "srcs": "assets/spine/pop_up.json"
+        },
+        {
+          "name": "submarine",
+          "srcs": "assets/spine/submarine.json"
+        },
+        {
+          "name": "transition",
+          "srcs": "assets/spine/transition.json"
+        },
+        {
+          "name": "autobet_button",
+          "srcs": "assets/sound/autobet_button.mp3"
+        },
+        {
+          "name": "bg_main_theme",
+          "srcs": "assets/sound/bg_main_theme.mp3"
+        },
+        {
+          "name": "bonus",
+          "srcs": "assets/sound/bonus.mp3"
+        },
+        {
+          "name": "crash",
+          "srcs": "assets/sound/crash.mp3"
+        },
+        {
+          "name": "increase_decrease_button",
+          "srcs": "assets/sound/increase_decrease_button.mp3"
+        },
+        {
+          "name": "make_bet",
+          "srcs": "assets/sound/make_bet.mp3"
+        },
+        {
+          "name": "pop_up_crash",
+          "srcs": "assets/sound/pop_up_crash.mp3"
+        },
+        {
+          "name": "pop_up_you_won",
+          "srcs": "assets/sound/pop_up_you_won.mp3"
+        },
+        {
+          "name": "take",
+          "srcs": "assets/sound/take.mp3"
+        },
+        {
+          "name": "transition_close",
+          "srcs": "assets/sound/transition_close.mp3"
+        },
+        {
+          "name": "transition_open",
+          "srcs": "assets/sound/transition_open.mp3"
+        },
+        {
+          "name": "f_7_s_4",
+          "srcs": "assets/fishes/f_7_s_4/f_7_s_4.json"
+        },
+        {
+          "name": "f_7_s_3",
+          "srcs": "assets/fishes/f_7_s_3/f_7_s_3.json"
+        },
+        {
+          "name": "f_7_s_2",
+          "srcs": "assets/fishes/f_7_s_2/f_7_s_2.json"
+        },
+        {
+          "name": "f_6_s_4",
+          "srcs": "assets/fishes/f_6_s_4/f_6_s_4.json"
+        },
+        {
+          "name": "f_6_s_3",
+          "srcs": "assets/fishes/f_6_s_3/f_6_s_3.json"
+        },
+        {
+          "name": "f_6_s_2",
+          "srcs": "assets/fishes/f_6_s_2/f_6_s_2.json"
+        },
+        {
+          "name": "f_6_s_1",
+          "srcs": "assets/fishes/f_6_s_1/f_6_s_1.json"
+        },
+        {
+          "name": "f_5_s_4",
+          "srcs": "assets/fishes/f_5_s_4/f_5_s_4.json"
+        },
+        {
+          "name": "f_5_s_3",
+          "srcs": "assets/fishes/f_5_s_3/f_5_s_3.json"
+        },
+        {
+          "name": "f_5_s_2",
+          "srcs": "assets/fishes/f_5_s_2/f_5_s_2.json"
+        },
+        {
+          "name": "f_5_s_1",
+          "srcs": "assets/fishes/f_5_s_1/f_5_s_1.json"
+        },
+        {
+          "name": "f_4_s_4",
+          "srcs": "assets/fishes/f_4_s_4/f_4_s_4.json"
+        },
+        {
+          "name": "f_4_s_3",
+          "srcs": "assets/fishes/f_4_s_3/f_4_s_3.json"
+        },
+        {
+          "name": "f_4_s_2",
+          "srcs": "assets/fishes/f_4_s_2/f_4_s_2.json"
+        },
+        {
+          "name": "f_4_s_1",
+          "srcs": "assets/fishes/f_4_s_1/f_4_s_1.json"
+        },
+        {
+          "name": "f_3_s_4",
+          "srcs": "assets/fishes/f_3_s_4/f_3_s_4.json"
+        },
+        {
+          "name": "f_3_s_3",
+          "srcs": "assets/fishes/f_3_s_3/f_3_s_3.json"
+        },
+        {
+          "name": "f_3_s_2",
+          "srcs": "assets/fishes/f_3_s_2/f_3_s_2.json"
+        },
+        {
+          "name": "f_3_s_1",
+          "srcs": "assets/fishes/f_3_s_1/f_3_s_1.json"
+        },
+        {
+          "name": "f_2_s_4",
+          "srcs": "assets/fishes/f_2_s_4/f_2_s_4.json"
+        },
+        {
+          "name": "f_2_s_3",
+          "srcs": "assets/fishes/f_2_s_3/f_2_s_3.json"
+        },
+        {
+          "name": "f_2_s_2",
+          "srcs": "assets/fishes/f_2_s_2/f_2_s_2.json"
+        },
+        {
+          "name": "f_1_s_4",
+          "srcs": "assets/fishes/f_1_s_4/f_1_s_4.json"
+        },
+        {
+          "name": "f_1_s_3",
+          "srcs": "assets/fishes/f_1_s_3/f_1_s_3.json"
+        },
+        {
+          "name": "f_1_s_1",
+          "srcs": "assets/fishes/f_1_s_1/f_1_s_1.json"
+        },
+        {
+          "name": "bg_move_1_stage",
+          "srcs": "assets/common/bg_move_1_stage.png"
+        },
+        {
+          "name": "bg_move_2_stage",
+          "srcs": "assets/common/bg_move_2_stage.png"
+        },
+        {
+          "name": "bg_move_3_stage",
+          "srcs": "assets/common/bg_move_3_stage.png"
+        },
+        {
+          "name": "bg_move_4_stage",
+          "srcs": "assets/common/bg_move_4_stage.png"
+        },
+        {
+          "name": "bg_move_5_stage",
+          "srcs": "assets/common/bg_move_5_stage.png"
+        }
+      ]
+    }
+  ]
+}

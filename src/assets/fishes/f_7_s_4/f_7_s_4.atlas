@@ -1,0 +1,27 @@
+
+f_7_s_4.png
+size: 116,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/f_7_s_4
+  rotate: false
+  xy: 2, 6
+  size: 66, 106
+  orig: 180, 106
+  offset: 58, 0
+  index: -1
+images/purple_glow
+  rotate: false
+  xy: 70, 68
+  size: 44, 44
+  orig: 64, 64
+  offset: 10, 10
+  index: -1
+images/soap_bubbles_small_blur
+  rotate: false
+  xy: 70, 30
+  size: 36, 36
+  orig: 50, 50
+  offset: 7, 7
+  index: -1
